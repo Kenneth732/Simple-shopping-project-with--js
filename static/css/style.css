@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(18, 18, 66);
+}
+
+.content {
+    width: 100%;
+    border: 3px solid white;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    background: white;
+}
+
+/* what the defrent btn .content and header? */
+
+.header{
+    padding: 30px 10%;
+    width: 100%;
+    height: 40vh;
+    border: 3px solid red;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.header-card{
+    width: 300px;
+    height: 300px;
+    background: red;
+}
